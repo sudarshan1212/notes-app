@@ -13,13 +13,16 @@
     </div> 
       <div class="shadow-lg mt-5 flex p-2 rounded-lg w-60 bg-[#B59AFE] active:bg-[#A988FD] border-2 border-[#A988FD] hover:bg-[#A988FD] hover:scale-110 duration-200  outline-white">
         <img class=" h-10" src="./images/edit.png" alt="">
-            <button class="ml-2 text-white font-bold text-2xl uppercase ">create Notes</button>  
+            <button onclick="createNotes()" id="create__Btn" class="ml-2 text-white font-bold text-2xl uppercase ">create Notes</button>  
         </div>
-        <p contenteditable="true" class=" text-lg text-gray-700 font-medium   duration-150 p-5 bg-white w-11/12 h-44 mt-5 shadow-lg outline-none border-[#8E58FA] border-2 rounded-xl relative "> <img src="./images/delete.png" class="w-7 bottom-5 right-5 absolute hover:scale-110 duration-100 hover:shadow-lg"></p>
+         <div id="notes-container" >
+           <!-- <p contenteditable="true"  class=" text-lg text-gray-700 font-medium   duration-150 p-5 bg-white w-5/12 h-44 mt-5 shadow-lg outline-none border-[#8E58FA] border-2 rounded-xl relative "> <img src="./images/delete.png" class="w-7 bottom-5 right-5 absolute hover:scale-110 duration-100 hover:shadow-lg"></p> -->
+
+        </div> 
         
 
    
   
-    
+    <script src="./notes.js"></script>
 </body>
 </html>
